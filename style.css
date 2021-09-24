@@ -1,0 +1,128 @@
+body {
+    font-family: Cutive Mono;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #313131;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:473px;
+}
+
+.output {
+    background-color:   #fffcf5;
+    box-shadow:         0 4px 14px -4px #919191;
+    border:             1px solid #e0e0e0;
+    height: 470px;
+    width: 700px;
+    /*margin-top: -20px;
+    */
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    word-wrap:break-word; 
+    vertical-align: bottom;
+    word-wrap:break-word; 
+    overflow: hidden; 
+
+    vertical-align: bottom;
+
+    position:absolute;
+
+
+}
+
+.typewriter {
+    z-index: 5;
+    filter:  drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+
+}
+
+.caret {
+    margin-top: 175px;
+    position: relative;
+    cursor: none;
+    caret-color: transparent;
+}
+
+[contenteditable] {
+    outline: 0px solid transparent;
+}
+
+.purple {
+    animation: purplechange 1.2s 1;
+    color: #c814ff;
+}
+
+.red {
+    animation: redchange 1.2s 1;
+    color: #FF5555;
+}
+
+.green {
+    animation: greenchange 1.2s 1;
+    color: #00d312;
+}
+
+.blue {
+    animation: bluechange 1.2s 1;
+    color: #38CFFF;
+}
+
+a {
+    color: #313131;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+@keyframes purplechange {
+    0% {
+        color: #313131;
+    }
+    100% {
+        color: #c814ff;
+    }
+}
+
+@keyframes redchange {
+    0% {
+        color: #313131;
+    }
+    100% {
+        color: #FF5555;
+    }
+}
+
+@keyframes greenchange {
+    0% {
+        color: #313131;
+    }
+    100% {
+        color: #00d312;
+    }
+}
+
+@keyframes bluechange {
+    0% {
+        color: #313131;
+    }
+    100% {
+        color: #38CFFF;
+    }
+}
